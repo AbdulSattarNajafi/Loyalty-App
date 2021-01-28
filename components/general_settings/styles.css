@@ -1,0 +1,62 @@
+#general_settings{
+  margin: 2rem 0;
+}
+/*Customer Form*/
+#general_settings #settings .customer{
+  padding: 1rem;
+}
+#general_settings #settings .customer .underline{
+  border-top: 2px solid black;
+  width: 246px;
+  margin: auto;
+  margin-top: -6px;
+}
+#settings .customer form{
+  margin-top: 2rem;
+}
+#settings .customer .enable{
+  display: flex;
+}
+#settings .customer .enable button{
+  margin-left: 2rem;
+}
+#settings .customer .enable .passcode{
+  margin-left: 4.8rem;
+}
+#settings .customer form .form-row input{
+  width: 90%;
+}
+/*Retailer Form*/
+#general_settings #settings .retailer{
+  padding: 1rem;
+}
+#settings .retailer .underline{
+  border-top: 2px solid black;
+  width: 220px;
+  margin: auto;
+  margin-top: -6px;
+}
+#settings .retailer .enable{
+  display: flex;
+  justify-content: flex-end;
+}
+#settings .retailer .enable button{
+  margin-right: 2rem;
+}
+#settings .retailer .enable .passcode{
+  margin-right: 8.3rem;
+}
+#settings .retailer form{
+  margin-top: 2rem;
+}
+.retailer form .form-row .inputs{
+  display: flex;
+  justify-content: flex-end;
+}
+.retailer form .form-row .lables{
+  padding-left: 1.3rem;
+}
+.retailer form .form-row input{
+  width: 90%;
+  height: 30px;
+}

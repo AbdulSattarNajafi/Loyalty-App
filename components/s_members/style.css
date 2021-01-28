@@ -1,0 +1,34 @@
+#members_table{
+    margin-top: 2rem;
+    padding: 0;
+}
+#members_table table th{
+    padding: .7rem .4rem;
+}
+#members_table table td{
+    padding: .3rem;
+}
+#members_table table .id{
+    width: 96px;
+}
+#members_table table .reg_date{
+    width: 82px;
+}
+#members_table table .name{
+    width: 82px;
+}
+#members_table table .city{
+    width: 70px;
+}
+#members_table table .post_code{
+    width: 82px;
+}
+#members_table table .phone{
+    width: 110px;
+}
+#members_table table .action{
+    width: 116px;
+}
+#members_table table .flex{
+    padding-top: .9rem;
+}

@@ -1,0 +1,35 @@
+#merchant_table{
+    margin-top: 2rem;
+    padding: 0;
+}
+#merchant_table table th{
+    padding: .7rem .4rem;
+}
+#merchant_table table td{
+    padding: .3rem;
+    font-size: .9rem;
+}
+#merchant_table table .id{
+    width: 96px;
+}
+#merchant_table table .reg_date{
+    width: 82px;
+}
+#merchant_table table .name{
+    width: 82px;
+}
+#merchant_table table .city{
+    width: 70px;
+}
+#merchant_table table .post_code{
+    width: 82px;
+}
+#merchant_table table .phone{
+    width: 110px;
+}
+#merchant_table table .action{
+    width: 78px;
+}
+#merchant_table table .flex{
+    padding-top: .8rem;
+}

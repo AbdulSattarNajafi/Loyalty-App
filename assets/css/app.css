@@ -1,0 +1,50 @@
+/*
+*   App_header
+*/
+#app_logo .logo_title{
+    font-size:12pt; 
+    color:teal;
+}
+#app_logo .logo_title_lower{
+    font-size: 8pt;
+}
+
+
+
+#app_header_nav .btn{
+    transition: all .3s;
+    border-bottom: solid 4px transparent;
+    padding: .304rem .75rem;
+}
+.btn-underline{
+    border-bottom: solid 4px #000 !important;
+    font-weight: 600;
+}
+.btn-underline:focus{
+    box-shadow: none;
+}
+
+/**
+*   App Sub Header
+*/
+#app_sub_header .container{
+    background-color: #fefefe;
+    margin-top: 20px;
+}
+    #app_sub_header_nav  .btn{
+        border: solid 1px #ccc;
+        margin: 0 0 0 0 !important;
+        border-radius: 5px 5px 0 0;
+    }
+    #app_sub_header_nav  .btn:focus{
+        box-shadow: none;
+    }
+/*
+*   App Body
+*/
+#app_body{
+    max-width: 1300px;
+    margin: auto;
+}
+
+

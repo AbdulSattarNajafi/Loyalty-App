@@ -1,0 +1,1 @@
+ load_sub_component('tally','today');

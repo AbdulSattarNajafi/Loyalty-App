@@ -1,0 +1,47 @@
+#tally_nav_container{
+    margin-top: 20px;
+}
+#today_container{
+    margin-top: 20px;
+}
+#today_container .daily_offer{
+    margin-top: 40px;
+    padding: 0;
+}
+.daily_offer .daily_table table th,
+.daily_offer .daily_table table td{
+    padding: .7rem .4rem;
+}
+.daily_table table .id{
+    width: 96px;
+}
+.daily_table table .postcode{
+    width: 82px;
+}
+.daily_table table .time{
+    width: 52px;
+}
+.daily_table table .ot{
+    width: 36px;
+}
+.daily_table table .total_pts{
+    width: 80px;
+}
+.daily_table table .points{
+    width: 30px;
+}
+.daily_table table .coupon{
+    width: 124px;
+}
+.daily_table table .spend{
+    width: 62px;
+}
+.daily_table table .phone{
+    width: 110px;
+}
+.daily_table table .action{
+    width: 84px;
+}
+.daily_table table tbody td > button{
+    color: #fff;
+}

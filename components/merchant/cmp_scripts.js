@@ -1,0 +1,1 @@
+ load_sub_component('merchant','merchant_table');

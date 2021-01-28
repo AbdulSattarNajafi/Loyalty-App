@@ -1,0 +1,34 @@
+/*Loyalty Nav*/
+#item_loyalty #loyalty_nav{
+    margin: 20px 0;
+}
+/*Offer_Menu Table*/
+#table_container{
+    margin-top: 40px;
+    padding: 0;
+}
+#table_container table td{
+    padding: .5rem;
+}
+#table_container table .image{
+    width: 80px;
+}
+#table_container table .img-sqr{
+    width: 40px;
+    height: 40px;
+}
+#table_container table .daily_offer{
+    width: 120px;
+}
+#table_container table .euro{
+    width: 20px;
+}
+#table_container table .points{
+    width: 30px;
+}
+#table_container table .date{
+    width: 115px;
+}
+#table_container table .action{
+    width: 160px;
+}

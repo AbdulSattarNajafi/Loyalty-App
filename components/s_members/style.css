@@ -9,10 +9,10 @@
     padding: .3rem;
 }
 #members_table table .id{
-    width: 96px;
+    width: 100px;
 }
 #members_table table .reg_date{
-    width: 82px;
+    width: 110px;
 }
 #members_table table .name{
     width: 82px;

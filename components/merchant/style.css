@@ -4,6 +4,7 @@
 }
 #merchant_table table th{
     padding: .7rem .4rem;
+    font-size: .9rem;
 }
 #merchant_table table td{
     padding: .3rem;
@@ -13,7 +14,7 @@
     width: 96px;
 }
 #merchant_table table .reg_date{
-    width: 82px;
+    width: 100px;
 }
 #merchant_table table .name{
     width: 82px;

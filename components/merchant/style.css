@@ -19,6 +19,9 @@
 #merchant_table table .name{
     width: 82px;
 }
+#merchant_table table .address{
+    width: 134px;
+}
 #merchant_table table .city{
     width: 70px;
 }
@@ -26,7 +29,7 @@
     width: 82px;
 }
 #merchant_table table .phone{
-    width: 110px;
+    width: 100px;
 }
 #merchant_table table .action{
     width: 78px;

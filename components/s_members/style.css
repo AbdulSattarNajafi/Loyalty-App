@@ -4,15 +4,17 @@
 }
 #members_table table th{
     padding: .7rem .4rem;
+    font-size: .9rem;
 }
 #members_table table td{
     padding: .3rem;
+    font-size: .9rem;
 }
 #members_table table .id{
-    width: 100px;
+    width: 92px;
 }
 #members_table table .reg_date{
-    width: 110px;
+    width: 92px;
 }
 #members_table table .name{
     width: 82px;
@@ -21,10 +23,10 @@
     width: 70px;
 }
 #members_table table .post_code{
-    width: 82px;
+    width: 78px;
 }
 #members_table table .phone{
-    width: 110px;
+    width: 104px;
 }
 #members_table table .action{
     width: 116px;

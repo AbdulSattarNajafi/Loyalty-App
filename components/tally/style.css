@@ -11,6 +11,13 @@
 .daily_offer .daily_table table th,
 .daily_offer .daily_table table td{
     padding: .7rem .4rem;
+    font-size: .9rem;
+}
+.yellow{
+    background: #ffc107!important;
+}
+.red{
+    background: #dc3545!important;
 }
 .daily_table table .id{
     width: 100px;
@@ -31,7 +38,7 @@
     width: 30px;
 }
 .daily_table table .coupon{
-    width: 124px;
+    width: 74px;
 }
 .daily_table table .spend{
     width: 62px;

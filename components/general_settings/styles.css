@@ -41,7 +41,7 @@
   display: flex;
   justify-content: flex-end;
 }
-#settings .retailer .enable button{
+#settings .enable .inactive_btn{
   margin-right: 2rem;
 }
 #settings .retailer .enable .passcode{

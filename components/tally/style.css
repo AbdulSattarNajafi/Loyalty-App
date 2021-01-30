@@ -4,8 +4,48 @@
 #today_container{
     margin-top: 20px;
 }
-#today_container .daily_offer{
+#table_caption{
     margin-top: 40px;
+}
+#table_caption .caption{
+    padding: 1rem 2rem;
+}
+#table_caption .caption .caption-item{
+    border: 1px solid gray;
+    display: flex;
+    padding: .5rem 0;
+}
+#table_caption .caption .caption-item .customers{
+    margin-left: 80px;
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+}
+#table_caption .caption .caption-item .ot{
+    margin-left: 22rem;
+    width: 40px;
+    display: inline-block;
+    text-align: center;
+}
+#table_caption .caption .caption-item .total{
+    margin-left: 2.5rem;
+    width: 110px;
+    display: inline-block;
+    text-align: center;
+}
+#table_caption .caption .caption-item .coupon{
+    margin-left: 1.5rem;
+    width: 120px;
+    display: inline-block;
+    text-align: center;
+}
+.amount{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 5px;
+}
+#today_container .daily_offer{
     padding: 0;
 }
 .daily_offer .daily_table table th,
@@ -18,6 +58,13 @@
 }
 .red{
     background: #dc3545!important;
+}
+.white{
+    font-weight: 600;
+    color: #fff;
+}
+.black{
+    font-weight: 600;
 }
 .daily_table table .id{
     width: 100px;

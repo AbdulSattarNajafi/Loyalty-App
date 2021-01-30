@@ -15,10 +15,13 @@ function flagActive(){
     flagbtn.addEventListener('click', (e) => {
       let currentRow = e.currentTarget.parentElement.parentElement;
       if(currentRow.classList.contains('red')) {
-        currentRow.classList.remove('red')
-        currentRow.classList.add('yellow')
+        currentRow.classList.remove('red');
+        currentRow.classList.remove('white');
+        currentRow.classList.add('yellow');
+        currentRow.classList.add('black');
       }else{
         currentRow.classList.toggle('yellow');
+        currentRow.classList.toggle('black');
       }
     })
   });
@@ -28,9 +31,12 @@ function flagActive(){
       let currentRow = e.currentTarget.parentElement.parentElement;
       if(currentRow.classList.contains('yellow')) {
         currentRow.classList.remove('yellow');
+        currentRow.classList.remove('black');
         currentRow.classList.add('red');
+        currentRow.classList.add('white');
       }else{
         currentRow.classList.toggle('red');
+        currentRow.classList.toggle('white');
       }
     })
   });

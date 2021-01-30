@@ -19,6 +19,7 @@
 }
 #settings .customer .enable button{
   margin-left: 2rem;
+  padding: 0 .7rem .2rem .7rem;
 }
 #settings .customer .enable .passcode{
   margin-left: 4.8rem;
@@ -43,6 +44,7 @@
 }
 #settings .enable .inactive_btn{
   margin-right: 2rem;
+  padding: 0 .7rem .2rem .7rem;
 }
 #settings .retailer .enable .passcode{
   margin-right: 8.3rem;

@@ -7,6 +7,15 @@ $('#today_nav button').unbind('click').click(function(e) {
   $(this).removeClass('btn-light'); 
 });
 
+//Function For Showing the Summary 
+function summaryResult() {
+  const sumBtn = document.querySelector('#summary_btn');
+  const sumContainer = document.querySelector('.caption');
+  sumBtn.addEventListener('click', () => {
+    sumContainer.classList.toggle('show_caption');
+  })
+};
+summaryResult();
 //function For Flag and Hand Buttons
 function flagActive(){
   let flagBtns = document.querySelectorAll('.flag_btn');

@@ -4,16 +4,13 @@
 #today_container{
     margin-top: 20px;
 }
-#table_caption{
-    margin-top: 40px;
-}
 #table_caption .caption{
     padding: 1rem 2rem;
 }
 #table_caption .caption .caption-item{
     border: 1px solid gray;
     display: flex;
-    padding: .5rem 0;
+    padding: .2rem 0;
 }
 #table_caption .caption .caption-item .customers{
     margin-left: 80px;
@@ -39,18 +36,25 @@
     display: inline-block;
     text-align: center;
 }
+.label{
+    margin-bottom: 5px;
+    line-height: 16px;
+}
 .amount{
     font-weight: 600;
     font-size: 18px;
-    line-height: 20px;
+    line-height: 16px;
     margin-bottom: 5px;
 }
 #today_container .daily_offer{
     padding: 0;
 }
-.daily_offer .daily_table table th,
-.daily_offer .daily_table table td{
+.daily_offer .daily_table table th{
     padding: .7rem .4rem;
+    font-size: .9rem;
+}
+.daily_offer .daily_table table td{
+    padding: .4rem;
     font-size: .9rem;
 }
 .yellow{
@@ -62,6 +66,9 @@
 .white{
     font-weight: 600;
     color: #fff;
+}
+.white:hover{
+    color: #fff!important;
 }
 .black{
     font-weight: 600;

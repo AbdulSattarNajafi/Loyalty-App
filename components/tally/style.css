@@ -15,8 +15,11 @@
     height: 52px;
 }
 #summary_btn{
-    margin: 1rem 0;
-    padding: .3rem .6rem;
+    margin-top: .8rem ;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 3px;
 }
 #table_caption .caption .caption-item{
     border: 1px solid gray;

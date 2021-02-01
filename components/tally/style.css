@@ -122,8 +122,8 @@
 }
 /*Pagination*/
 #pagination_container{
-    margin-top: -54px;
-    height: 44px;
+    margin-top: -44px;
+    height: 34px;
     margin-bottom: 0;
     padding: 0;
 }
@@ -136,10 +136,10 @@
     border-radius: 50px;
 }
 #pagination_container #pagination li{
-    font-size: 1.2rem;
-    line-height: 40px;
+    font-size: 1rem;
+    line-height: 30px;
     font-weight: 600;
-    color: #17a2b8;
+    color: #6c757d;
     margin: 0 3px;
     text-align: center;
     cursor: pointer;
@@ -147,11 +147,11 @@
 }
 #pagination_container #pagination .dots{
     cursor: default;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 #pagination_container #pagination .numb{
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
     border-radius: 50%;
 }
 #pagination_container #pagination .btn{
@@ -166,6 +166,6 @@
 #pagination_container #pagination li.active,
 #pagination_container #pagination li.numb:hover,
 #pagination_container #pagination li.btn:hover{
-    background-color:#17a2b8;
+    background-color:#6c757d;
     color: #fff;
 }

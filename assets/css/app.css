@@ -11,17 +11,17 @@
 }
 #main{
     min-height: calc(100vh - 64px);
-    padding-bottom: 54px;
+    padding-bottom: 44px;
     overflow-y: auto;
 }
 #page_wrapper{
     min-height: calc(100vh - 142px);
-    padding-bottom: 54px;
+    padding-bottom: 44px;
     overflow-y: auto;
 }
 #main-container{
     min-height: calc(100vh - 122px);
-    padding-bottom: 54px;
+    padding-bottom: 44px;
     overflow-y: auto; 
 }
 

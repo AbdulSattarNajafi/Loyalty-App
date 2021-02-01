@@ -6,6 +6,7 @@
 #table_container{
     margin-top: 40px;
     padding: 0;
+    margin-bottom: 1rem;
 }
 #table_container table th{
     font-size: .9rem;
@@ -47,4 +48,102 @@
 }
 #table_container table .action{
     width: 160px;
+}
+/*Pagination Reg Menu*/
+#pagination_wrapper{
+    margin-top: -54px;
+    height: 44px;
+    margin-bottom: 0;
+    padding: 0;
+}
+#pagination_wrapper #pagina{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    float: right;
+    border-radius: 50px;
+}
+#pagination_wrapper #pagina li{
+    font-size: 1.2rem;
+    line-height: 40px;
+    font-weight: 600;
+    color: #17a2b8;
+    margin: 0 3px;
+    text-align: center;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+#pagination_wrapper #pagina .dots{
+    cursor: default;
+    font-size: 1.3rem;
+}
+#pagination_wrapper #pagina .numb{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+#pagination_wrapper #pagina .btn{
+    padding: 0 10px;
+}
+#pagination_wrapper #pagina .prev{
+    border-radius: 25px 0 0 25px;
+}
+#pagination_wrapper #pagina .next{
+    border-radius: 0 25px 25px 0;
+}
+#pagination_wrapper #pagina li.active,
+#pagination_wrapper #pagina li.numb:hover,
+#pagination_wrapper #pagina li.btn:hover{
+    background-color:#17a2b8;
+    color: #fff;
+}
+/*Pagination Offer Menu*/
+#pagination_container{
+    margin-top: -54px;
+    height: 44px;
+    margin-bottom: 0;
+    padding: 0;
+}
+#pagination_container #pagination{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    float: right;
+    border-radius: 50px;
+}
+#pagination_container #pagination li{
+    font-size: 1.2rem;
+    line-height: 40px;
+    font-weight: 600;
+    color: #17a2b8;
+    margin: 0 3px;
+    text-align: center;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+#pagination_container #pagination .dots{
+    cursor: default;
+    font-size: 1.3rem;
+}
+#pagination_container #pagination .numb{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+#pagination_container #pagination .btn{
+    padding: 0 10px;
+}
+#pagination_container #pagination .prev{
+    border-radius: 25px 0 0 25px;
+}
+#pagination_container #pagination .next{
+    border-radius: 0 25px 25px 0;
+}
+#pagination_container #pagination li.active,
+#pagination_container #pagination li.numb:hover,
+#pagination_container #pagination li.btn:hover{
+    background-color:#17a2b8;
+    color: #fff;
 }

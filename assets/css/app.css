@@ -1,3 +1,4 @@
+
 /*
 *   App_header
 */
@@ -8,8 +9,21 @@
 #app_logo .logo_title_lower{
     font-size: 8pt;
 }
-
-
+#main{
+    min-height: calc(100vh - 64px);
+    padding-bottom: 54px;
+    overflow-y: auto;
+}
+#page_wrapper{
+    min-height: calc(100vh - 142px);
+    padding-bottom: 54px;
+    overflow-y: auto;
+}
+#main-container{
+    min-height: calc(100vh - 122px);
+    padding-bottom: 54px;
+    overflow-y: auto; 
+}
 
 #app_header_nav .btn{
     transition: all .3s;
@@ -29,7 +43,7 @@
 */
 #app_sub_header .container{
     background-color: #fefefe;
-    margin-top: 20px;
+    margin-top: 20px;;
 }
     #app_sub_header_nav  .btn{
         border: solid 1px #ccc;

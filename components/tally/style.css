@@ -100,7 +100,7 @@
     width: 36px;
 }
 .daily_table table .total_pts{
-    width: 80px;
+    width: 80px !important;
 }
 .daily_table table .points{
     width: 30px;
@@ -115,8 +115,57 @@
     width: 110px;
 }
 .daily_table table .action{
-    width: 84px;
+    width: 80px;
 }
 .daily_table table tbody td > button{
+    color: #fff;
+}
+/*Pagination*/
+#pagination_container{
+    margin-top: -54px;
+    height: 44px;
+    margin-bottom: 0;
+    padding: 0;
+}
+#pagination_container #pagination{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    float: right;
+    border-radius: 50px;
+}
+#pagination_container #pagination li{
+    font-size: 1.2rem;
+    line-height: 40px;
+    font-weight: 600;
+    color: #17a2b8;
+    margin: 0 3px;
+    text-align: center;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+#pagination_container #pagination .dots{
+    cursor: default;
+    font-size: 1.3rem;
+}
+#pagination_container #pagination .numb{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+#pagination_container #pagination .btn{
+    padding: 0 10px;
+}
+#pagination_container #pagination .prev{
+    border-radius: 25px 0 0 25px;
+}
+#pagination_container #pagination .next{
+    border-radius: 0 25px 25px 0;
+}
+#pagination_container #pagination li.active,
+#pagination_container #pagination li.numb:hover,
+#pagination_container #pagination li.btn:hover{
+    background-color:#17a2b8;
     color: #fff;
 }

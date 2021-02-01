@@ -1,6 +1,36 @@
+
+#members_caption .caption{
+    padding: 0 2rem;
+    margin-bottom: 1rem;
+    height: 0;
+    overflow-y: hidden;
+    transition: all .5s ease;
+}
+#members_caption .show_caption{
+    height: 52px;
+}
+#members_caption #summary_btn{
+    margin-top: .8rem ;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+#members_caption .caption .caption-item{
+    border: 1px solid gray;
+    display: flex;
+    padding: .2rem 0;
+}
+#members_caption .caption .caption-item .customers{
+    margin-left: 148px;
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+}
+/*Members Table*/
 #members_table{
-    margin-top: 2rem;
     padding: 0;
+    margin-bottom: 1rem;
 }
 #members_table table th{
     padding: .7rem .4rem;
@@ -33,4 +63,53 @@
 }
 #members_table table .flex{
     padding-top: .8rem;
+}
+/*Pagination*/
+#pagination_wrapper{
+    margin-top: -54px;
+    height: 44px;
+    margin-bottom: 0;
+    padding: 0;
+}
+#pagination_wrapper #pagina{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    float: right;
+    border-radius: 50px;
+}
+#pagination_wrapper #pagina li{
+    font-size: 1.2rem;
+    line-height: 40px;
+    font-weight: 600;
+    color: #17a2b8;
+    margin: 0 3px;
+    text-align: center;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+#pagination_wrapper #pagina .dots{
+    cursor: default;
+    font-size: 1.3rem;
+}
+#pagination_wrapper #pagina .numb{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+#pagination_wrapper #pagina .btn{
+    padding: 0 10px;
+}
+#pagination_wrapper #pagina .prev{
+    border-radius: 25px 0 0 25px;
+}
+#pagination_wrapper #pagina .next{
+    border-radius: 0 25px 25px 0;
+}
+#pagination_wrapper #pagina li.active,
+#pagination_wrapper #pagina li.numb:hover,
+#pagination_wrapper #pagina li.btn:hover{
+    background-color:#17a2b8;
+    color: #fff;
 }

@@ -1,48 +1,86 @@
-<div class="container" id="members_table">
+
+<div id="main">
+  <div class="container" id="members_caption">
+    <div class="row">
+      <div class="col-12 text-center">
+        <p id="summary_btn">OT Summary</p>
+      </div>
+      <div class="col-12 caption">
+        <div class="caption-item">
+          <div class="customers">
+            <p class="label">Customers</p>
+            <p class="amount">3</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="container" id="members_table">
+    <div class="row">
+      <div class="col-sm-12">
+        <table data-short="true" class="data-table table table-striped table-bordered table-hover" width="100%">
+          <thead>
+            <tr>
+              <th class="id">Member Id</th>
+              <th class="reg_date">Registration</th>
+              <th class="name">Name</th>
+              <th class="name">Surname</th>
+              <th>Address</th>
+              <th class="city">City</th>
+              <th class="post_code">Postcode</th> 
+              <th class="phone">Phone</th>
+              <th class="email">Email</th>
+              <th class="action">Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!--Table Data Row-1-->
+            <tr>
+              <td class="flex">21-A-0001</td>
+              <td class="flex">12 Jan 21</td>
+              <td class="flex">Joe Dema</td>
+              <td class="flex">Applepie</td>
+              <td>84 holmsdale road<br>Address 2</td>
+              <td class="flex">Preston</td>
+              <td class="flex">CV6 5BJ</td>
+              <td class="flex">07154325438</td>
+              <td class="flex">myself0074623@gmail.com</td>
+              <td class="flex">
+                <button type="button" class="btn btn-light btn-sm">
+                  <i class="fas fa-folder-open invisible"></i>
+                </button>
+                <button type="button" class="btn btn-success btn-sm btn-green">
+                  <i class="fas fa-pencil-alt"></i>
+                </button>
+                <button type="button" class="btn btn-danger btn-sm btn-red">
+                  <i class="fas fa-trash-alt"></i>
+                </button>
+              </td>
+            </tr>
+            
+            <!--End Of Table Data Rows-->
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container" id="pagination_wrapper">
   <div class="row">
-    <div class="col-sm-12">
-      <table data-short="true" class="data-table table table-striped table-bordered table-hover" width="100%">
-        <thead>
-          <tr>
-            <th class="id">Member Id</th>
-            <th class="reg_date">Registration</th>
-            <th class="name">Name</th>
-            <th class="name">Surname</th>
-            <th>Address</th>
-            <th class="city">City</th>
-            <th class="post_code">Postcode</th> 
-            <th class="phone">Phone</th>
-            <th class="email">Email</th>
-            <th class="action">Actions</th>
-          </tr>
-        </thead>
-        <tbody>
-          <!--Table Data Row-1-->
-          <tr>
-            <td class="flex">21-A-0001</td>
-            <td class="flex">12 Jan 21</td>
-            <td class="flex">Joe Dema</td>
-            <td class="flex">Applepie</td>
-            <td>84 holmsdale road<br>Address 2</td>
-            <td class="flex">Preston</td>
-            <td class="flex">CV6 5BJ</td>
-            <td class="flex">07154325438</td>
-            <td class="flex">myself0074623@gmail.com</td>
-            <td class="flex">
-              <button type="button" class="btn btn-light btn-sm">
-                <i class="fas fa-folder-open invisible"></i>
-              </button>
-              <button type="button" class="btn btn-success btn-sm btn-green">
-                <i class="fas fa-pencil-alt"></i>
-              </button>
-              <button type="button" class="btn btn-danger btn-sm btn-red">
-                <i class="fas fa-trash-alt"></i>
-              </button>
-            </td>
-          </tr>
-          <!--End Of Table Data Rows-->
-        </tbody>
-      </table>
+    <div class="col-12">
+      <ul id="pagina">
+      <!--  <li class="btn prev"><i class="fas fa-chevron-left"></i> Prev</li>
+        <li class="numb active">1</li>
+        <li class="numb">2</li>
+        <li class="dots">...</li>
+        <li class="numb">4</li>
+        <li class="numb">5</li>
+        <li class="dots">...</li>
+        <li class="numb">7</li>
+        <li class="btn next">Next <i class="fas fa-chevron-right"></i></li>-->
+      </ul>
     </div>
   </div>
 </div>

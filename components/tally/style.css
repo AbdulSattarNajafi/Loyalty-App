@@ -115,7 +115,7 @@
     width: 110px;
 }
 .daily_table table .action{
-    width: 80px;
+    width: 82px !important;
 }
 .daily_table table tbody td > button{
     color: #fff;
